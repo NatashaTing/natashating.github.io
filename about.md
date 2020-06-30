@@ -35,16 +35,16 @@ The 11, 15, and 17 years old me will be proud that I have always kept, and still
 ## Some Economics
 ID| Name | Year | What is This |                                                            
 |:--------|:-------:|:-------:|:-------:|
-1| Predicting Cashflow-at-Risk for a Natural Gas Plant | Feb 2019 |Used and analyzed models for price simulation to compute cashflow-at-risk. Models through MATLAB.|
-2| Profolio Hack | Jan 2019 | Created an investment portfolio designer by minimizing risks through n-asset mean-variance analysis. |
+1| Predicting Cashflow-at-Risk for a Natural Gas Plant | Feb 2019 |Used and analyzed models for price simulation to compute cashflow-at-risk. Models through MATLAB.
+2| Profolio Hack | Jan 2019 | Created an investment portfolio designer by minimizing risks through n-asset mean-variance analysis.
 3| UGG Case Study | Feb 2019 | Tried out business school-style case study at an undergrad conference in school. 
 
 
 ## Not Economics
 ID| Name | Year | What is This |
 |:--------|:-------:|:-------:|:-------:|
-1| Estimating the SIRD without Assumption of Population | Apr 2020 | My part of a math modelling paper |
-2| An application of the AHP | Feb 2020 | My part of a math modelling paper |
+1| Estimating the SIRD without Assumption of Population | Apr 2020 | My part of a math modelling paper 
+2| An application of the AHP | Feb 2020 | My part of a math modelling paper 
 
 
 
