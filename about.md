@@ -30,22 +30,26 @@ I grew up in a little town in the West Coast of Malaysia. It now has over 5 digi
 The 11, 15, and 17 years old me will be proud that I have always kept, and still have, a blog. Though she will wonder why I burned all the selfies. I started this blog in the summer of 2018 to say many things I thought smart to say. I like to document my thoughts and publish some writings here. I think at some point this will become more academic or professional.  
 
 # My Work
+
 ## Economics
 
 ## Some Economics
-ID| Name | Year | What is This |                                                            
-|:--------|:-------:|:-------:|:-------:|
-1| Predicting Cashflow-at-Risk for a Natural Gas Plant | Feb 2019 |Used and analyzed models for price simulation to compute cashflow-at-risk. Models through MATLAB.
-2| Profolio Hack | Jan 2019 | Created an investment portfolio designer by minimizing risks through n-asset mean-variance analysis.
-3| UGG Case Study | Feb 2019 | Tried out business school-style case study at an undergrad conference in school. 
+
+- Predicting Cashflow-at-Risk for a Natural Gas Plant (Feb 2019)
+    - Used and analyzed models for price simulation to compute cashflow-at-risk. Models through MATLAB.
+
+- Profolio Hack (Jan 2019)
+    - Created an investment portfolio designer by minimizing risks through n-asset mean-variance analysis.
+
+- UGG Case Study (Feb 2019)
+    -Tried out business school-style case study at an undergrad conference in school.
 
 
 ## Not Economics
-ID| Name | Year | What is This |
-|:--------|:-------:|:-------:|:-------:|
-1| Estimating the SIRD without Assumption of Population | Apr 2020 | My part of a math modelling paper 
-2| An application of the AHP | Feb 2020 | My part of a math modelling paper 
-
+- Estimating the SIRD without Assumption of Population (Apr 2020)
+    - My part of a math modelling paper
+- An application of the AHP (Feb 2020)
+    - My part of a math modelling paper
 
 
 
