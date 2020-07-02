@@ -1,10 +1,10 @@
 # ----------- CONFIGURABLE START -----------
 title:            "Read This Ting"
 description:      "Econoomics Rant"
-url:              https://natashating.github.io # 域名
+url:              https://natashating.github.io # domain
 signoff:          "Natasha Ting" # Your name
 facebook_appid:
-google_analytics:
+google_analytics: UA-171564247-1
 share:            true 
 
 paginate: 6
@@ -13,9 +13,6 @@ gems: [jekyll-paginate]
 links:
   - name:         Home
     url:          /
-    external:     false
-  - name:         Archive
-    url:          /archive
     external:     false
   - name:         Tags
     url:          /tags

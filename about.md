@@ -54,5 +54,5 @@ The 11, 15, and 17 years old me will be proud that I have always kept, and still
 
 
 # Contact 
-Say hello at [Twitter](https://twitter.com/NatashaTing)
+Say hello on [Twitter](https://twitter.com/NatashaTing)
 
