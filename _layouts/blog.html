@@ -11,7 +11,7 @@
 <body class="" gtools_scp_screen_capture_injected="true">
 <header id="header" class="header bg-white">
     <div class="navbar-container">
-      <a href="/?liberxue" title="Visit {{site.title }}" class="navbar-logo"> <img src="{{ site.url }}/style/images/logo-liberxue.png" alt="{{ site.title }}"> </a>
+      <a href="/?" title="Visit {{site.title }}" class="navbar-logo"> <img src="{{ site.url }}/style/images/logo.png" alt="{{ site.title }}"> </a>
         <div class="navbar-menu">
             {% for link in site.links %}             
             <a href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">{{ link.name }}</a>
@@ -206,8 +206,8 @@ var postDirectoryBuild = function() {
             li = document.createElement('li');
             link = document.createElement('a');
             link.href = '#' + titleId[i];
-            link.title = '访问' + titleId[i];
-            link.title = '访问' + titleId[i];
+            link.title = 'Visit' + titleId[i];
+            link.title = 'Visit' + titleId[i];
             link.innerHTML = !isDirNum ? contentArr[i] :
                 dirNum.join('.') + ' ' + contentArr[i] ;
             li.appendChild(link);
