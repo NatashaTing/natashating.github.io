@@ -37,9 +37,9 @@ html {
 
 body {
     font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
-    font-size: 14px;
-    line-height: 1.8;
-    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.2;
+    margin: 1em auto;
     color: #313131;
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-margin-after: 0.83em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    font-family: "Abril Fatface", serif;
+    font-family: "Trebuchet MS", serif;
 }
 
 h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
@@ -76,7 +76,8 @@ h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, 
 
 h1 {
     font-size: 1.4em;
-    color: #6f7477;
+    color: #474B57;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -107,6 +108,26 @@ h6 {
 body > h2:first-child, body > h1:first-child, body > h1:first-child + h2, body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
     margin-top: 0;
     padding-top: 0;
+}
+
+.fancybox {
+  padding : 4em;
+  width: 100%;
+  position : relative;
+  box-sizing: border-box;
+  background-color: #E4E4D9;
+}
+
+.fancybox::before {
+  content: "";
+  position : absolute;
+  z-index  : -1;
+  bottom   : 15px;
+  right    : 10px;
+  width    : 50%;
+  top      : 80%;
+  box-shadow: 0px 15px 10px black;
+  transform: rotate(4deg);
 }
 
 a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
@@ -1133,6 +1154,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     font-weight: 500;
     position: relative;
     margin: 20px 0;
+    color: #eb5055;
 }
 
 .post-content h1::before, .post-content h2::before, .post-content h3::before, .post-content h4::before, .post-content h5::before, .post-content h6::before {
