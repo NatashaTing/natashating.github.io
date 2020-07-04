@@ -31,17 +31,17 @@ Yes, when they are not adding questions to assignments, or criticizing textbooks
 
 Asking a question in economics? Make sure you ask the right person.
 
-Labour economics professor : “Don’t ask me I am not a financial economist. “
+**Labour economics professor**: “Don’t ask me I am not a financial economist. “
 
-Financial economics professor: “Don’t ask me I am an empiricist. “
+**Financial economics professor**: “Don’t ask me I am an empiricist. “
 
-Theorist professor: “Don’t ask me I am not an econometrician. “
+**Theorist professor**: “Don’t ask me I am not an econometrician. “
 
-Econometrics professor:  “Don’t ask me I don’t do time-series. “
+**Econometrics professor**:  “Don’t ask me I don’t do time-series. “
 
-Time-series econometrics professor: “Don’t ask me I am not a mathematician. “
+**Time-series econometrics professor**: “Don’t ask me I am not a mathematician. “
 
-Mathematician: “Why are you asking me about economics?”
+**Mathematician**: “Why are you asking me about economics?”
 
  
 
@@ -166,9 +166,11 @@ Do you think economics professors have strange intuition?
 
 The other day, my professor declared that the Dominant Firm Lerner Index is “super” intuitive, while waving his arms in a sort of swimming motion. It was 2 minutes after he introduced the index:
 
-Dominant Firm Lerner Index
-Dominant Firm Lerner Index
-where p is price, MC^D is marginal cost of dominant firm, s^D is supply of dominant firm, e_{s}^{f} is price elasticity of supply of fringe competition, s^f is supply of fringe competition, e is market price elasticity of demand
+$$\text{LI}^{D} = \frac{p^* - \text{MC}^{D}}{p^*} = \frac{S^D}{\epsilon^{f}_{s}S^{f} + \epsilon}$$
+
+*Dominant Firm Lerner Index*
+
+where \\(p\\) is price, \\(\text{MC}^D\\) is marginal cost of dominant firm, \\(s^D\\) is supply of dominant firm, \\(e_{s}^{f}\\) is price elasticity of supply of fringe competition, \\(s^f\\) is supply of fringe competition, \\(\epsilon \\) is market price elasticity of demand
 
  
 
