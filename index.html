@@ -18,7 +18,7 @@
 					<div class="item-slant">	<div class="liberxue-title">
 				</div></div>
 					<div class="item-label">
-						<div class="item-title"><a href="{{ posts.url }}" title="Visit {{ posts.title }}">{{ posts.title | truncate: 45 }}</a></div>
+						<div class="item-title"><a href="{{ posts.url }}" title="Visit {{ posts.title }}">{{ posts.title | truncate: 60 }}</a></div>
 						<div class="item-meta clearfix">
 						<div class="item-meta-ico bg-ico-book" style="background: url('/style/images/bg-ico.png') no-repeat;background-size: 28px auto;"></div>
              <div class="item-meta-cat">
@@ -31,4 +31,5 @@
        {% endfor %}
 	</div>
 	</div>
+</div>
   {% include pagination.html %}

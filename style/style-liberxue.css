@@ -110,6 +110,7 @@ body > h2:first-child, body > h1:first-child, body > h1:first-child + h2, body >
     padding-top: 0;
 }
 
+/*Natasha*/
 .fancybox {
   padding : 4em;
   width: 100%;
@@ -118,6 +119,7 @@ body > h2:first-child, body > h1:first-child, body > h1:first-child + h2, body >
   background-color: #E4E4D9;
 }
 
+/*Natasha*/
 .fancybox::before {
   content: "";
   position : absolute;
@@ -178,22 +180,26 @@ a:hover::before, a:focus::before {
 
 ul, ol {
     padding-left: 30px;
+    line-height: 20px
 }
 
 ul li > :first-child, ol li > :first-child, ul li ul:first-of-type, ol li ol:first-of-type, ul li ol:first-of-type, ol li ul:first-of-type {
     margin-top: 0;
+    line-height: 20px
 }
 
 li {
     word-wrap: break-word;
+    line-height: 30px
 }
 
 li p {
     margin: 0;
+    line-height: 20px
 }
 
 ul ul, ul ol, ol ol, ol ul {
-    margin-bottom: 0;
+    margin-bottom: 0;px
 }
 
 pre {
@@ -574,7 +580,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .navbar-logo img {
     width: auto;
-    height: 38px;
+    vertical-align: middle;
+    height: 45px;
     outline: 0;
 }
 
@@ -1137,7 +1144,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     background: #f7f7f7;
 }
 
-.post-page {text-align: left;margin: auto;}
+.post-page {
+    text-align: left;
+    margin: auto;
+}
 
 .page-page {
     max-width: 700px;
@@ -1210,11 +1220,11 @@ pre code::after {
     margin: 0 auto;
 }
 
-img[src*="#small"] {
+.post-content img[src*="#small"] {
    width:50%;
 }
 
-img[src*="#tiny"] {
+.post-content img[src*="#tiny"] {
    width: 20%;
 }
 
@@ -1345,13 +1355,39 @@ img[src*="#tiny"] {
     border-top: 1px solid #e0e0e0;
 }
 
+/* Natasha */
+.post-author {
+    overflow: hidden;
+    margin: 25px -20px 0;
+    padding: 25px 20px 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-top: 1px solid #e0e0e0;
+}
+
 .related-post-lists {
     position: relative;
     z-index: 1;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
     padding-top: 30px;
+    /*Natasha*/
+    padding-bottom: 30px;
     background-color: #f7f7f7;
 }
+
+
+.related-post-lists h1 {
+    padding-left: 9em;
+    position: relative;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-family: "Trebuchet MS", serif;
+}
+
 
 .related-post-lists .post-lists {
     max-width: 940px;

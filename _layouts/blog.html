@@ -8,6 +8,8 @@
     {% include head.html %}
 
   </head>
+
+
 <body class="" gtools_scp_screen_capture_injected="true">
 <header id="header" class="header bg-white">
     <div class="navbar-container">
@@ -110,23 +112,76 @@
 	</div>
 </article>
 
-<!-- <div class="related-post-lists">
+
+<div class="related-post-lists">
+    <h1>Related Posts</h1>
+{% assign maxRelated = 4 %}
+{% assign minCommonTags =  1 %}
+{% assign maxRelatedCounter = 0 %}
+
+  {% for post in site.posts %}
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+    {% for tag in post.tags %}
+      {% if post.url != page.url %}
+        {% if page.tags contains tag %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+          {% assign commonTags = commonTags | append: tagmarkup %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+    <!--  <div>
+      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5>
+      </div>
+    -->
+    <div class="related-post-lists">
+		<div class="post-lists">
+				<div class="post-list-item-container">
+					<div class="item-label">
+						<div class="item-title"><a href="{{ site.baseurl }}{{ post.url }}" title="Visit {{ posts.title }}">{{ post.title }}</a></div>
+						<div class="item-meta clearfix">
+                            <div class="item-meta-ico bg-ico-image" style="background: url('/style/images/bg-ico.png') no-repeat;background-size: 40px auto;"></div>
+                            <p>{{ post.tags | truncate: 30 }}</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+
+  {% endfor %}
+
+</div>
+
+<br>
+
+<!--
+<div class="related-post-lists">
 	<div class="post-lists">
 		<div class="post-lists-body">
 					<div class="post-list-item">
 				<div class="post-list-item-container">
 					<div class="item-label">
-						<div class="item-title"><a href="induction.html">归纳的随想</a></div>
+						<div class="item-title"><a href="{{ posts.url }}" title="Visit {{ posts.title }}">{{ posts.title | truncate: 100 }}</a></div>
 						<div class="item-meta clearfix">
-														<div class="item-meta-ico bg-ico-image" style="background: url('../usr/themes/pinghsu/images/bg-ico.png') no-repeat;background-size: 40px auto;"></div>
-	                        							<div class="item-meta-cat"><a href="../category/thoughts/index.html">Thoughts</a></div>
+                            <div class="item-meta-ico bg-ico-image" style="background: url('/style/images/bg-ico.png') no-repeat;background-size: 40px auto;"></div>
+                            <a href="/tags#{{ posts.category }}" title="Visit {{ posts.category }}" data-hover="{{ posts.category }}">{{ posts.category | truncate: 13 }}</a>
+                            <a href="/archives#{{ posts.date | date: "%Y"}}" title="visit {{ posts.date | date: "%Y"}}" data-hover="{{ posts.date | date: "%F %H:%M"}}">{{ posts.date | date: "%F"}}</a></div>
 						</div>
 					</div>
 				</div>
 			</div>
 				</div>
 	</div>
-</div> -->
+-->
+
 {% include foot.html %}
 <!--liberxueconnnet-menu-->
 <div id="directory-content" class="directory-content">
