@@ -2,7 +2,7 @@
 layout: blog
 istop: false
 title: "Professor, Business Owner and Exec — An Earnings Trajectory"
-background-image: /static/img/posts/stormtropper.jpg
+background-image: /static/img/posts/stormtrooper.jpg
 date:  2020-07-27 02:36:14
 category: economics
 tags: 
