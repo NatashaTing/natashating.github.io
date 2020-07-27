@@ -1365,6 +1365,13 @@ pre code::after {
     border-top: 1px solid #e0e0e0;
 }
 
+/* Natasha */
+author-img {
+    position: relative;
+    height: 45px;
+    border-radius: 50%
+}
+
 .related-post-lists {
     position: relative;
     z-index: 1;

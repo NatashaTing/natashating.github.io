@@ -103,12 +103,9 @@
 {{ content }}
 		<p class="post-info">
 			Written by <a href="/">Natasha</a>. Last edited:{{ page.date | date: "%F %H:%M:%S"}}
-        {% if author.bio %}
+       <!-- {% if author.bio %} -->
       {% include author_bio.html %}
-        {% endif %}
-        </p>
-
-
+       <!-- {% endif %} -->
 	</div>
 </article>
 
