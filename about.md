@@ -10,48 +10,58 @@ redirect_from:
   - /about/
 ---
 
+![](/static/img/main/WebsitePicture3.png)
 
 # About Me
-I am a student of economics in a masters program at UAlberta. I will one day have a business and a bit of impact.  
+My name is Natasha Ting. I am a masters student in economics at the University of Alberta. I love economics and entrepreneurship. 
+One day, I will have a business and some impact.  
 
 ## What I do 
-I like to think that I translate economics learnings into somewhat useful action items. I like simulating decisions the econ way in particular. I like reading about growth theories, econometrics everything, industrial organisation, financial economics.  
+I like to think that I translate economics learning into somewhat useful action items. Within economics, I particularly 
+enjoy anything macroeconomics, growth theories, anything econometrics, and financial economics.  
 
-## What I sometimes do
-I read, write, hike, watch one anime, and play some music. I listen to fair-to-good conversations. I love jokes. 
-- I used to think I will become a music teacher.
-- I used to debate competitively. 
-- I used to travel quite a bit, especially during my 2 gap years after high school. 
+Outside of economics, I read, write, hike, dance, and play some music. 
+I love jokes and listen to good conversations. For leisure, I debate competitively. 
 
-## Hometown
-I grew up in a little town in the West Coast of Malaysia. It now has over 5 digit resident count, but feels more like 5,000. 
+## Geography
+I grew up in a little town in the West Coast of Malaysia. Outside of the little town, I have lived in Edmonton, Kuala Lumpur, and Auckland. 
+I currently live in Edmonton, the northernmost city in the North America (fun). 
 
 # About This Blog
-The 11, 15, and 17 years old me will be proud that I have always kept, and still have, a blog. Though she will wonder why I burned all the selfies. I started this blog in the summer of 2018 to say many things I thought smart to say. I like to document my thoughts and publish some writings here. I think at some point this will become more academic or professional.  
+I've always had a lot to say and there were always avenues. The 11, 15, and 17 years old me will be proud that 
+I've always had, and still have, a blog. I started this blog in the summer of 2018, and it will at some point become more academic or professional.  
+
+<br>
 
 # My Work
+Here are some of my projects. 
 
 ## Economics
 
 ## Some Economics
 
-- Predicting Cashflow-at-Risk for a Natural Gas Plant (Feb 2019)
-    - Used and analyzed models for price simulation to compute cashflow-at-risk. Models through MATLAB.
+<button name="profolio-hack" onclick="/static/file/Prediting-Cash-Flow.pdf">Predicting Cashflow-at-Risk for a Natural Gas Plant--Presentation</button> <br>
+(Feb 2019) Used and analyzed models for price simulation to compute cashflow-at-risk. Models through MATLAB.
 
-- Profolio Hack (Jan 2019)
-    - Created an investment portfolio designer by minimizing risks through n-asset mean-variance analysis.
+<button name="ugg-case-study" onclick="/static/file/ugg-case-study.pdf">UGG Case Study-Presentation</button> <br>
+(Feb 2019) Tried out business school-style case study at an undergrad conference in school.
 
-- UGG Case Study (Feb 2019)
-    -Tried out business school-style case study at an undergrad conference in school.
-
+<button name="profolio-hack" onclick="https://github.com/profoliohack/ProfolioHackApp">Profolio Hack--Link to Repository</button> <br>
+(Jan 2019) Created an investment portfolio designer by minimizing risks through n-asset mean-variance analysis.
+Won a prize in a hackathon. 
 
 ## Not Economics
-- Estimating the SIRD without Assumption of Population (Apr 2020)
-    - My part of a math modelling paper
-- An application of the AHP (Feb 2020)
-    - My part of a math modelling paper
+<button name="sird-estimation-repo" onclick="https://github.com/NatashaTing/covid19-modelling/blob/master/write/Slides.pdf">Estimating the SIRD--Slides</button> <br>
+(Apr 2020) My part of a math modelling paper, focusing on methods to estimate the SIRD as a system. 
 
+<button name="ahp-repo" onclick="">An Application of AHP</button><br>
+(Feb 2020) Developed an implementation of the Analytical Hierachical Process and won a prize in a math modelling competition. 
 
+<button name="button" onclick="https://github.com/NatashaTing/touchdown.git ">Touchdown---A Community Safety App</button> <br>
+(Nov 2018) Simple Android app to foster community safety, written in Java. I worked on the front end for this project. 
+Got an honourable mention in a hackathon. 
+    
+<br>
 
 # Contact 
 Say hello on [Twitter](https://twitter.com/NatashaTing)

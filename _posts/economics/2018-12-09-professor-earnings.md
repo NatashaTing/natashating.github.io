@@ -33,7 +33,7 @@ But I have a homework to submit. So after a bit of clever adjustment, I made my 
 Thus my present discounted value of a career as a business owner:
 
 
-$$\sum_{t=0}^{n=5} \frac{c_t}{(1+r)^2} + \sum_{t=6}^{n=52} \bigg[ \frac { (1+\alpha)^{t-6} \big[ \pi w_{1} + (1-\pi)w_{2} \big] }{(1+r)^{t-6}} \bigg] - (1-\pi) m $$
+$$\sum_{t=0}^{n=5} \frac{c_t}{(1+r)^2} + \sum_{t=6}^{n=52} \bigg[ \frac { (1+\alpha)^{t-6} \big[ \pi w_{1} + (1-\pi)w_{2} \big] }{(1+r)^{t-6}} \bigg] - (1-\pi) m$$
 
 where \\(c\\) = cost of school, \\(t\\) = time, \\(r\\) = discount rate, π = probability of not changing working location, \\(w_{i,t}\\) = wage at time t, \\(i\\) = 1, \\(1 + α\\) = wage growth factor
 
