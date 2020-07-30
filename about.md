@@ -39,25 +39,24 @@ Here are some of my projects.
 ## Economics
 
 ## Some Economics
-
-<button name="profolio-hack" onclick="/static/file/Prediting-Cash-Flow.pdf">Predicting Cashflow-at-Risk for a Natural Gas Plant--Presentation</button> <br>
+<button name="profolio-hack" onclick="document.location='/static/file/Prediting-Cash-Flow.pdf'">Predicting Cashflow-at-Risk for a Natural Gas Plant---Presentation</button> <br>
 (Feb 2019) Used and analyzed models for price simulation to compute cashflow-at-risk. Models through MATLAB.
 
-<button name="ugg-case-study" onclick="/static/file/ugg-case-study.pdf">UGG Case Study-Presentation</button> <br>
+<button name="ugg-case-study" onclick="document.location='/static/file/ugg-case-study.pdf'">UGG Case Study---Presentation</button> <br>
 (Feb 2019) Tried out business school-style case study at an undergrad conference in school.
 
-<button name="profolio-hack" onclick="https://github.com/profoliohack/ProfolioHackApp">Profolio Hack--Link to Repository</button> <br>
+<button name="profolio-hack" onclick="document.location='https://github.com/profoliohack/ProfolioHackApp'">Profolio Hack---Repository</button> <br>
 (Jan 2019) Created an investment portfolio designer by minimizing risks through n-asset mean-variance analysis.
 Won a prize in a hackathon. 
 
 ## Not Economics
-<button name="sird-estimation-repo" onclick="https://github.com/NatashaTing/covid19-modelling/blob/master/write/Slides.pdf">Estimating the SIRD--Slides</button> <br>
+<button name="sird-estimation-repo" onclick="document.location='https://github.com/NatashaTing/covid19-modelling/blob/master/write/Slides.pdf'">Estimating the SIRD---Slides</button> <br>
 (Apr 2020) My part of a math modelling paper, focusing on methods to estimate the SIRD as a system. 
 
-<button name="ahp-repo" onclick="">An Application of AHP</button><br>
+<button name="ahp-repo" onclick="document.location='">An Application of AHP</button><br>
 (Feb 2020) Developed an implementation of the Analytical Hierachical Process and won a prize in a math modelling competition. 
 
-<button name="button" onclick="https://github.com/NatashaTing/touchdown.git ">Touchdown---A Community Safety App</button> <br>
+<button name="button" onclick="document.location='https://github.com/NatashaTing/touchdown.git'">Touchdown: A Community Safety App---Repository</button> <br>
 (Nov 2018) Simple Android app to foster community safety, written in Java. I worked on the front end for this project. 
 Got an honourable mention in a hackathon. 
     

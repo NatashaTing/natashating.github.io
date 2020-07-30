@@ -303,6 +303,7 @@ button {
 button:hover {
   background-color: #474747; /* darker grey */
   color: white;
+    cursor: pointer;
 }
 
 input, select, textarea {
