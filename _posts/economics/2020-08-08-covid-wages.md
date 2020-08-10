@@ -10,11 +10,13 @@ tags:
 - covid19
 ---
 
+Here's the graph that shows average earnings in early 2020, during the Covid19 pandemic. 
 
-
-<iframe id="graph1" title="Graph Satu" height="510" width="910" src="/plot/covid-consumer/avgWeeklyEarnings-all.html"> </iframe>
+<iframe id="graph1" title="Graph Satu" height="510" width="910" src="/plot/covid-consumer/avgWeeklyEarnings_seas.html"> </iframe>
 
 <iframe id="hist_earnings" title="Graph Dua" height="300" width="400" src="/plot/covid-consumer/hist_earnings.html"> </iframe>
+
+This below table shows that some industries experiences markedly higher earnings comparing between Jan 2020 and April 2020. 
 
 <table border="1" class="dataframe">
   <thead>
@@ -137,4 +139,18 @@ tags:
     </tr>
   </tbody>
 </table>
+
+
+However, the seasonality of the data might be causing this issue. For example, construction has the 
+<a href="/plot/covid-consumer/plot/Construction.png" data-lightbox="iframe">lowest earnings in January</a>, and the 
+highest in the fall. Accommodation and food services <a href="/plot/covid-consumer/plot/Accommodation and food services.png" 
+data-lightbox="iframe">hits th peak in year end</a>, and finds the environment quietest in January. Educational Services 
+ on another hand, perhaps quite surprisingly, <a href="/plot/covid-consumer/plot/Educational services.png" 
+data-lightbox="iframe">does the best around spring</a>. 
+
+
+
+<iframe id="differenced-avgWeeklyEarnings" height="410" width="810" title="Differenced Average Weekly Earnings Graph" src="/plot/covid-consumer/seas_dff_sub.html"> </iframe>
+
+
 
