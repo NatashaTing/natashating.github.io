@@ -13,15 +13,11 @@ redirect_from:
 ![](/static/img/main/WebsitePicture3.png)
 
 # About Me
-My name is Natasha Ting. I am a masters student in economics at the University of Alberta. I love economics and entrepreneurship. 
-One day, I will have a business and some impact.  
+My name is Natasha Ting. I am a masters student in economics at the University of Alberta. 
+My research area is resource economics, environmental economics, public finance, and asset pricing.
+I like to think that I translate economics learning into somewhat useful action items. 
 
-## What I do 
-I like to think that I translate economics learning into somewhat useful action items. Within economics, I particularly 
-enjoy anything macroeconomics, growth theories, anything econometrics, and financial economics.  
-
-Outside of economics, I read, write, hike, dance, and play some music. 
-I love jokes and listen to good conversations. For leisure, I debate competitively. 
+Outside of economics, I read, write, joke, hike, dance, and play some music. For leisure, I debate competitively. 
 
 ## Geography
 I grew up in a little town in the West Coast of Malaysia. Outside of the little town, I have lived in Edmonton, Kuala Lumpur, and Auckland. 
@@ -29,7 +25,7 @@ I currently live in Edmonton, the northernmost city in the North America (fun).
 
 # About This Blog
 I've always had a lot to say and there were always avenues. The 11, 15, and 17 years old me will be proud that 
-I've always had, and still have, a blog. I started this blog in the summer of 2018, and it will at some point become more academic or professional.  
+I've always had a blog. I started this blog in the summer of 2018, and it will at some point become more academic or professional.  
 
 <br>
 
