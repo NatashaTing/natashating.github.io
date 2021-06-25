@@ -82,18 +82,16 @@ Alberta Einstein said--indeed, he quoted a "wit"---in his 1936 essay *On Educati
 > Education is that which remains, if one has forgotten everything he learned in school. 
 
 <br>
-What did “BA (Hons) Economics minor in Mathematics with First Class Honors” give me? It taught me the fundamentals of 
-how the world works. The most practical thing that economics taught me was the guidance in seeing errors; and my major 
-takeaway from math studies was that humans have the capability to know what is absolutely true. Truely, if something was 
-true, it shall be true now as well as true in however many time steps. Math taught me that some things can be so true 
-that they are the very definition of truth. The requirement for certainty is different between 
-driving and landing a rocket back on the launch pad, or between making a retail-sized transaction and adjusting the 
-target rate. Entrusted with key responsibilities,some errors can cost lives. This period of studies in grad school will 
-help me grasp the tools to gain certainty. 
+What did “BA (Hons) Economics with minor in Mathematics, First Class Honors” give me? It taught me the fundamentals of 
+how the world works. Economics has given me a whole new world; and math studies taught me that humans have the capability 
+to know what is absolutely true. Some things can be so true that they are the very definition of truth. 
+The requirement for certainty is different between driving and landing a rocket back on the launch pad, 
+or between making a retail-sized transaction and adjusting the target rate. Entrusted with key responsibilities, some 
+errors can cost lives. This period of studies in grad school will help me grasp the tools to gain certainty. 
 
 <br>
 I no longer feel conflicted about going to grad school. My infatuation with economics persists, and I feel excited and 
-privileged to take a year to indulge in it. This craze will not prevent, instead will only enable me to do actual impactful 
-things. On taking this first step to grad school, I know that it is a worthwhile journey to make. 
+privileged to take a year to indulge in it. The craze will enable me to soon make actual impacts, and grad school 
+will be a worthwhile journey to make. 
 
  

@@ -14,27 +14,29 @@ redirect_from:
 
 # About Me
 My name is Natasha Ting. I am a masters student in economics at the University of Alberta. 
-My research area is resource economics, environmental economics, public finance, and asset pricing.
-I like to think that I translate economics learning into somewhat useful action items. 
+My interests are energy economics, environmental economics, time series econometrics and asset pricing.
+I like to view market dynamics as either validations or deviations from economics theories. 
 
 Outside of economics, I read, write, joke, hike, dance, and play some music. For leisure, I debate competitively. 
 
 ## Geography
-I grew up in a little town in the West Coast of Malaysia. Outside of the little town, I have lived in Edmonton, Kuala Lumpur, and Auckland. 
-I currently live in Edmonton, the northernmost city in the North America (fun). 
+I grew up in a little town in the West Coast of Malaysia. Outside of the little town, I have lived in Edmonton, 
+Kuala Lumpur, and Auckland. I currently live in Edmonton, the northernmost city in the North America (fun). 
 
 # About This Blog
-I've always had a lot to say and there were always avenues. The 11, 15, and 17 years old me will be proud that 
-I've always had a blog. I started this blog in the summer of 2018, and it will at some point become more academic or professional.  
+I've always had a lot to say and there were always avenues. I started this blog in the summer of 2018, 
+just after 2nd year undergraduate studies, and it will at some point become more professional.  
 
 <br>
 
 # My Work
-Here are some of my projects. 
+Here are some of the fun projects I did over 3rd year (and some 4th year) in undergrad. 
 
 ## Economics
+Master's level academic research projects will be added here when possible. 
 
-## Some Economics
+
+## Applied Economics
 <button name="profolio-hack" onclick="document.location='/static/file/Prediting-Cash-Flow.pdf'">Predicting Cashflow-at-Risk for a Natural Gas Plant---Presentation</button> <br>
 (Feb 2019) Used and analyzed models for price simulation to compute cashflow-at-risk. Models through MATLAB.
 
@@ -45,7 +47,7 @@ Here are some of my projects.
 (Jan 2019) Created an investment portfolio designer by minimizing risks through n-asset mean-variance analysis.
 Won a prize in a hackathon. 
 
-## Not Economics
+## Applied Math and Programming Interests
 <button name="sird-estimation-repo" onclick="document.location='https://github.com/NatashaTing/covid19-modelling/blob/master/write/Slides.pdf'">Estimating the SIRD---Slides</button> <br>
 (Apr 2020) My part of a math modelling paper, focusing on methods to estimate the SIRD as a system. 
 
