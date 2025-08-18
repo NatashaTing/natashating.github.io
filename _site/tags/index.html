@@ -18,19 +18,19 @@
   <meta property="og:title" content="Tags - Read This Ting">
   <meta name="og:keywords"  content="Tags - Read This Ting|  {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfo..." property='og:description' />
   <meta name="ReadThisTing" content="#eb5055">
-  <link rel="icon" type="image/png" href="http://localhost:4000/style/favicons/favicon.ico" />
-  <link href="http://localhost:4000/style/favicons/favicon.ico" rel="shortcut icon" type="image/png">
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="alternate" type="application/rss+xml" title="ReadThisTing" href="http://localhost:4000/feed.xml">
+  <link rel="icon" type="image/png" href="{{ site.url }}/style/favicons/favicon.ico" />
+  <link href="{{ site.url }}/style/favicons/favicon.ico" rel="shortcut icon" type="image/png">
+  <link rel="canonical" href="{{ site.url }}/">
+  <link rel="alternate" type="application/rss+xml" title="ReadThisTing" href="{{ site.url }}/feed.xml">
   <meta charset="UTF-8">  
   <link rel="manifest" href="/manifest.json">
-  <link rel="shortcut icon" href="http://localhost:4000/style/favicons/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ site.url }}/style/favicons/favicon.ico" type="image/x-icon">
   <meta name="keywords"  content="  {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfo..." property='og:description' />
   <meta name="description" content="nothing is more practicla than a good theory" />
   <link href="https://cdn.bootcss.com/highlight.js/9.10.0/styles/xcode.min.css" rel="stylesheet">
   <link href="http://{{ site.url }}/style/style-liberxue.css" rel="stylesheet">
 
-  <meta content='http://localhost:4000' property='og:url' />
+  <meta content='{{ site.url }}' property='og:url' />
   <meta content="Econoomics Rant" property='og:description' />
   <meta content="blog" property="og:type" />
 
@@ -54,7 +54,7 @@
 <body class="bg-grey" gtools_scp_screen_capture_injected="true"><div id="MathJax_Message" style="display: none;"></div>
 <header id="header" class="header bg-white">
     <div class="navbar-container">
-      <a href="/?liberxue" title="Visit Read This Ting" class="navbar-logo"> <img src="http://localhost:4000/style/images/logo.png" alt="Read This Ting"> </a>
+      <a href="/?liberxue" title="Visit Read This Ting" class="navbar-logo"> <img src="{{ site.url }}/style/images/logo.png" alt="Read This Ting"> </a>
         <div class="navbar-menu">
                         
             <a href="/?liberxue"  title="Visit Home" data-hover="Home">Home</a>
@@ -210,7 +210,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/07/26/AI-Impact-economics.html" data-hover="Thoughts on AI's Impact on Economic Laws">Thoughts on AI's Impact on Economic Laws</a>
+								<a href="{{ site.url }}/2020/07/26/AI-Impact-economics.html" data-hover="Thoughts on AI's Impact on Economic Laws">Thoughts on AI's Impact on Economic Laws</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -236,7 +236,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/09/06/on-grad-school.html" data-hover="Starting Grad School">Starting Grad School</a>
+								<a href="{{ site.url }}/2020/09/06/on-grad-school.html" data-hover="Starting Grad School">Starting Grad School</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -251,7 +251,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/06/22/I-dont-want-to-learn.html" data-hover="I Don't Want to Learn">I Don't Want to Learn</a>
+								<a href="{{ site.url }}/2019/06/22/I-dont-want-to-learn.html" data-hover="I Don't Want to Learn">I Don't Want to Learn</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -266,7 +266,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/04/27/the-joke-is-on-me.html" data-hover="The Joke is On Me">The Joke is On Me</a>
+								<a href="{{ site.url }}/2019/04/27/the-joke-is-on-me.html" data-hover="The Joke is On Me">The Joke is On Me</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -281,7 +281,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/04/01/professors-are-funny-2.html" data-hover="Professors are Funny: 2">Professors are Funny: 2</a>
+								<a href="{{ site.url }}/2019/04/01/professors-are-funny-2.html" data-hover="Professors are Funny: 2">Professors are Funny: 2</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -296,7 +296,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/02/09/professors-are-funny-1.html" data-hover="Professors are Funny: 1">Professors are Funny: 1</a>
+								<a href="{{ site.url }}/2019/02/09/professors-are-funny-1.html" data-hover="Professors are Funny: 1">Professors are Funny: 1</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -311,7 +311,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/12/28/the-1000-hours-of-2018.html" data-hover="The 1000 Hours of 2018">The 1000 Hours of 2018</a>
+								<a href="{{ site.url }}/2018/12/28/the-1000-hours-of-2018.html" data-hover="The 1000 Hours of 2018">The 1000 Hours of 2018</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -326,7 +326,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/09/09/on-academic-conversation.html" data-hover="On Academic Conversations">On Academic Conversations</a>
+								<a href="{{ site.url }}/2018/09/09/on-academic-conversation.html" data-hover="On Academic Conversations">On Academic Conversations</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -341,7 +341,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/09/09/4-things-i-learnt.html" data-hover="4 Things I Learnt Last Semester (on studying)">4 Things I Learnt Last Semester (on studying)</a>
+								<a href="{{ site.url }}/2018/09/09/4-things-i-learnt.html" data-hover="4 Things I Learnt Last Semester (on studying)">4 Things I Learnt Last Semester (on studying)</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -367,7 +367,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/06/28/reasoning-chemistry.html" data-hover="Reasoning Across the Discipline: Chemistry">Reasoning Across the Discipline: Chemistry</a>
+								<a href="{{ site.url }}/2020/06/28/reasoning-chemistry.html" data-hover="Reasoning Across the Discipline: Chemistry">Reasoning Across the Discipline: Chemistry</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -382,7 +382,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/06/28/earth-as-a-cell.html" data-hover="The Earth As a Cell">The Earth As a Cell</a>
+								<a href="{{ site.url }}/2020/06/28/earth-as-a-cell.html" data-hover="The Earth As a Cell">The Earth As a Cell</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -408,7 +408,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/08/08/covid-wages.html" data-hover="The Covid19 Earnings Increase">The Covid19 Earnings Increase</a>
+								<a href="{{ site.url }}/2020/08/08/covid-wages.html" data-hover="The Covid19 Earnings Increase">The Covid19 Earnings Increase</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -434,7 +434,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/07/30/the-ting-book.html" data-hover="The Ting Book">The Ting Book</a>
+								<a href="{{ site.url }}/2018/07/30/the-ting-book.html" data-hover="The Ting Book">The Ting Book</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -460,7 +460,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/09/09/on-academic-conversation.html" data-hover="On Academic Conversations">On Academic Conversations</a>
+								<a href="{{ site.url }}/2018/09/09/on-academic-conversation.html" data-hover="On Academic Conversations">On Academic Conversations</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -486,7 +486,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/09/06/on-grad-school.html" data-hover="Starting Grad School">Starting Grad School</a>
+								<a href="{{ site.url }}/2020/09/06/on-grad-school.html" data-hover="Starting Grad School">Starting Grad School</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -512,7 +512,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/07/26/AI-Impact-economics.html" data-hover="Thoughts on AI's Impact on Economic Laws">Thoughts on AI's Impact on Economic Laws</a>
+								<a href="{{ site.url }}/2020/07/26/AI-Impact-economics.html" data-hover="Thoughts on AI's Impact on Economic Laws">Thoughts on AI's Impact on Economic Laws</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -538,7 +538,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/12/31/debating-my-foe.html" data-hover="Debating My Imaginary Foe">Debating My Imaginary Foe</a>
+								<a href="{{ site.url }}/2019/12/31/debating-my-foe.html" data-hover="Debating My Imaginary Foe">Debating My Imaginary Foe</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -564,7 +564,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/07/21/fifa-2018.html" data-hover="FIFA 2018 Finals: Penalty Gamed Right">FIFA 2018 Finals: Penalty Gamed Right</a>
+								<a href="{{ site.url }}/2018/07/21/fifa-2018.html" data-hover="FIFA 2018 Finals: Penalty Gamed Right">FIFA 2018 Finals: Penalty Gamed Right</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -590,7 +590,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/07/30/the-ting-book.html" data-hover="The Ting Book">The Ting Book</a>
+								<a href="{{ site.url }}/2018/07/30/the-ting-book.html" data-hover="The Ting Book">The Ting Book</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -616,7 +616,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/04/27/the-joke-is-on-me.html" data-hover="The Joke is On Me">The Joke is On Me</a>
+								<a href="{{ site.url }}/2019/04/27/the-joke-is-on-me.html" data-hover="The Joke is On Me">The Joke is On Me</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -631,7 +631,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/04/01/professors-are-funny-2.html" data-hover="Professors are Funny: 2">Professors are Funny: 2</a>
+								<a href="{{ site.url }}/2019/04/01/professors-are-funny-2.html" data-hover="Professors are Funny: 2">Professors are Funny: 2</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -646,7 +646,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/02/09/professors-are-funny-1.html" data-hover="Professors are Funny: 1">Professors are Funny: 1</a>
+								<a href="{{ site.url }}/2019/02/09/professors-are-funny-1.html" data-hover="Professors are Funny: 1">Professors are Funny: 1</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -672,7 +672,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/07/26/AI-Impact-economics.html" data-hover="Thoughts on AI's Impact on Economic Laws">Thoughts on AI's Impact on Economic Laws</a>
+								<a href="{{ site.url }}/2020/07/26/AI-Impact-economics.html" data-hover="Thoughts on AI's Impact on Economic Laws">Thoughts on AI's Impact on Economic Laws</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -687,7 +687,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/12/09/professor-earnings.html" data-hover="Professor, Business Owner and Exec — An Earnings Trajectory">Professor, Business Owner and Exec — An Earnings Trajectory</a>
+								<a href="{{ site.url }}/2018/12/09/professor-earnings.html" data-hover="Professor, Business Owner and Exec — An Earnings Trajectory">Professor, Business Owner and Exec — An Earnings Trajectory</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -713,7 +713,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/09/01/lesson-lse-2.html" data-hover="Lessons from the LSE (2/2): Economics is Great">Lessons from the LSE (2/2): Economics is Great</a>
+								<a href="{{ site.url }}/2019/09/01/lesson-lse-2.html" data-hover="Lessons from the LSE (2/2): Economics is Great">Lessons from the LSE (2/2): Economics is Great</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -728,7 +728,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/08/22/lesson-lse-1.html" data-hover="Lessons from the LSE 1/2: Observe Society">Lessons from the LSE 1/2: Observe Society</a>
+								<a href="{{ site.url }}/2019/08/22/lesson-lse-1.html" data-hover="Lessons from the LSE 1/2: Observe Society">Lessons from the LSE 1/2: Observe Society</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -743,7 +743,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/12/28/the-1000-hours-of-2018.html" data-hover="The 1000 Hours of 2018">The 1000 Hours of 2018</a>
+								<a href="{{ site.url }}/2018/12/28/the-1000-hours-of-2018.html" data-hover="The 1000 Hours of 2018">The 1000 Hours of 2018</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -769,7 +769,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/03/31/time-slows-in-lockdown.html" data-hover="Time Slows In Lockdown">Time Slows In Lockdown</a>
+								<a href="{{ site.url }}/2020/03/31/time-slows-in-lockdown.html" data-hover="Time Slows In Lockdown">Time Slows In Lockdown</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -784,7 +784,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/12/31/debating-my-foe.html" data-hover="Debating My Imaginary Foe">Debating My Imaginary Foe</a>
+								<a href="{{ site.url }}/2019/12/31/debating-my-foe.html" data-hover="Debating My Imaginary Foe">Debating My Imaginary Foe</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -799,7 +799,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/05/19/update-may-2019.html" data-hover="Update May 2019">Update May 2019</a>
+								<a href="{{ site.url }}/2019/05/19/update-may-2019.html" data-hover="Update May 2019">Update May 2019</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -825,7 +825,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/09/01/lesson-lse-2.html" data-hover="Lessons from the LSE (2/2): Economics is Great">Lessons from the LSE (2/2): Economics is Great</a>
+								<a href="{{ site.url }}/2019/09/01/lesson-lse-2.html" data-hover="Lessons from the LSE (2/2): Economics is Great">Lessons from the LSE (2/2): Economics is Great</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -840,7 +840,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2019/08/22/lesson-lse-1.html" data-hover="Lessons from the LSE 1/2: Observe Society">Lessons from the LSE 1/2: Observe Society</a>
+								<a href="{{ site.url }}/2019/08/22/lesson-lse-1.html" data-hover="Lessons from the LSE 1/2: Observe Society">Lessons from the LSE 1/2: Observe Society</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -866,7 +866,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/08/08/covid-wages.html" data-hover="The Covid19 Earnings Increase">The Covid19 Earnings Increase</a>
+								<a href="{{ site.url }}/2020/08/08/covid-wages.html" data-hover="The Covid19 Earnings Increase">The Covid19 Earnings Increase</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -892,7 +892,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/10/28/students-beware.html" data-hover="Students Beware">Students Beware</a>
+								<a href="{{ site.url }}/2018/10/28/students-beware.html" data-hover="Students Beware">Students Beware</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -918,7 +918,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/06/28/reasoning-chemistry.html" data-hover="Reasoning Across the Discipline: Chemistry">Reasoning Across the Discipline: Chemistry</a>
+								<a href="{{ site.url }}/2020/06/28/reasoning-chemistry.html" data-hover="Reasoning Across the Discipline: Chemistry">Reasoning Across the Discipline: Chemistry</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -933,7 +933,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/06/28/earth-as-a-cell.html" data-hover="The Earth As a Cell">The Earth As a Cell</a>
+								<a href="{{ site.url }}/2020/06/28/earth-as-a-cell.html" data-hover="The Earth As a Cell">The Earth As a Cell</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -948,7 +948,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/09/25/how-to-know-what-you-dont-know.html" data-hover="How to Know What You don’t Know, and Why">How to Know What You don’t Know, and Why</a>
+								<a href="{{ site.url }}/2018/09/25/how-to-know-what-you-dont-know.html" data-hover="How to Know What You don’t Know, and Why">How to Know What You don’t Know, and Why</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -974,7 +974,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/06/19/why-economics.html" data-hover="Why Economics?">Why Economics?</a>
+								<a href="{{ site.url }}/2018/06/19/why-economics.html" data-hover="Why Economics?">Why Economics?</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -1000,7 +1000,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/06/28/reasoning-chemistry.html" data-hover="Reasoning Across the Discipline: Chemistry">Reasoning Across the Discipline: Chemistry</a>
+								<a href="{{ site.url }}/2020/06/28/reasoning-chemistry.html" data-hover="Reasoning Across the Discipline: Chemistry">Reasoning Across the Discipline: Chemistry</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -1015,7 +1015,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/06/28/earth-as-a-cell.html" data-hover="The Earth As a Cell">The Earth As a Cell</a>
+								<a href="{{ site.url }}/2020/06/28/earth-as-a-cell.html" data-hover="The Earth As a Cell">The Earth As a Cell</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -1030,7 +1030,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/09/25/how-to-know-what-you-dont-know.html" data-hover="How to Know What You don’t Know, and Why">How to Know What You don’t Know, and Why</a>
+								<a href="{{ site.url }}/2018/09/25/how-to-know-what-you-dont-know.html" data-hover="How to Know What You don’t Know, and Why">How to Know What You don’t Know, and Why</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -1045,7 +1045,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2018/06/19/understanding-determinism-with-statistics.html" data-hover="Understanding Determinism with Statistics and Economics Concept">Understanding Determinism with Statistics and Economics Concept</a>
+								<a href="{{ site.url }}/2018/06/19/understanding-determinism-with-statistics.html" data-hover="Understanding Determinism with Statistics and Economics Concept">Understanding Determinism with Statistics and Economics Concept</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -1071,7 +1071,7 @@
 					<div class="post-list-item-container">
 						<div class="item-label">
 							<div class="item-title" >
-								<a href="http://localhost:4000/2020/09/06/on-grad-school.html" data-hover="Starting Grad School">Starting Grad School</a>
+								<a href="{{ site.url }}/2020/09/06/on-grad-school.html" data-hover="Starting Grad School">Starting Grad School</a>
 							</div>
 							<div class="item-meta clearfix">
 								<div class="item-meta-date">
@@ -1108,9 +1108,9 @@
             <div class="meta-item meta-copyright">
                 <div class="meta-copyright-info">
                     <a href="/" class="info-logo">
-                         <img src="http://localhost:4000/style/images/logo.png"   title="Visit Blog" data-hover="Blog" alt="Blog" /> </a>
+                         <img src="{{ site.url }}/style/images/logo.png"   title="Visit Blog" data-hover="Blog" alt="Blog" /> </a>
                     <div class="info-text">
-                        <p>&copy; 2020 <a href="http://natashating.github.io/about" target="_blank">Natasha Ting</a>.</p>
+                        <p>&copy; 2020 <a href="{{ site.url }}/about" target="_blank">Natasha Ting</a>.</p>
                         <p>Total： posts. <a href="/archive"  title="Browse Archive" data-hover="Browse Archive">Browse Archive</a></p>
                         <p><a href="/feed.xml"  title="Subscribe with RSS" data-hover="Subscribe with RSS">Subscribe with RSS</a></p>
                     </div>
