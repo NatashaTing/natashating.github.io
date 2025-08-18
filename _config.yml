@@ -1,8 +1,9 @@
 # ----------- CONFIGURABLE START -----------
-title:            "Read This Ting"
-description:      "Econoomics Rant"
-url:              https://natashating.github.io # domain
-signoff:          "Natasha Ting" # Your name
+title:            "Econ Rant"
+description:      "Rants from an Econ Junkie"
+url:              https://natashating.com # my custom domain
+baseurl:          "" # keeping it blank since my site is at the root of your custom domain.
+signoff:          "Natasha Ting" # name
 facebook_appid:
 google_analytics: UA-171564247-1
 share:            true 
