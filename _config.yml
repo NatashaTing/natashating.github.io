@@ -28,3 +28,9 @@ permalink: /:year/:month/:day/:title.html
 defaults:
   - values:
       layout: "default"
+
+# make sure can use kramdown with attribute lists
+# like insert class with ![Author](myimg.jpg){: .author-img }
+markdown: kramdown
+kramdown:
+  input: GFM

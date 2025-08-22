@@ -10,7 +10,7 @@ redirect_from:
   - /about/
 ---
 
-![](static/img/main/NatashaTing_square.jpg)
+![Me Natasha](static/img/main/NatashaTing_square.jpg){: .author-img}
 
 # About Me
 My name is Natasha Ting. As of 2024 I am a first-year student in business economics at Indiana University. My research interests are environmental economics and IO. 

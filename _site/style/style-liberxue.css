@@ -1387,7 +1387,6 @@ pre code::after {
 
 /* Natasha */
 .author-img {
-    position: relative;
     width: 30%;
     height: auto; /* maintains aspect ratio */
     border-radius: 50%; /* keeps it circular */
