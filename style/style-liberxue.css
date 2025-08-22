@@ -1386,10 +1386,11 @@ pre code::after {
 }
 
 /* Natasha */
-author-img {
-    position: relative;
-    height: 45px;
-    border-radius: 50%
+.author-img {
+    width: 30%;
+    height: auto; /* maintains aspect ratio */
+    border-radius: 50%; /* keeps it circular */
+    display: block;     /* removes small bottom space */
 }
 
 .related-post-lists {
