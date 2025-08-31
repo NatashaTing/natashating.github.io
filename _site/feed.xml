@@ -1,126 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Read This Ting</title>
-    <description>Econoomics Rant</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <title>Econ Rant</title>
+    <description>Rants from an Econ Junkie</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>A real excitement</title>
+        <category>other</category>
+        <description>As a kid, I would spend the nights before family trips mostly tossing and turning in bed. I would...</description>
+        <pubDate>2025-08-30 15:01:43 </pubDate>
+        <link>http://localhost:4000/2025/08/30/excitement.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/08/30/excitement.html</guid>
+      </item>
     
       <item>
         <title>Starting Grad School</title>
         <category>education</category>
         <description>(written September 1, 2020)This morning, I hopped out of bed before the alarm woke. Dodging the p...</description>
-        <pubDate>2020-09-06 19:24:34 </pubDate>
-        <link>{{ site.url }}/2020/09/06/on-grad-school.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2020/09/06/on-grad-school.html</guid>
-      </item>
-    
-      <item>
-        <title>The Covid19 Earnings Increase</title>
-        <category>macro-economics</category>
-        <description>Here’s the graph that shows average earnings in early 2020, during the Covid19 pandemic.  This be...</description>
-        <pubDate>2020-08-08 15:21:35 </pubDate>
-        <link>{{ site.url }}/2020/08/08/covid-wages.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2020/08/08/covid-wages.html</guid>
+        <pubDate>2020-09-06 21:24:34 </pubDate>
+        <link>http://localhost:4000/2020/09/06/on-grad-school.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/09/06/on-grad-school.html</guid>
       </item>
     
       <item>
         <title>Thoughts on AI's Impact on Economic Laws</title>
         <category>economics</category>
         <description>This weekend’s InsideAI newsletter included writer/venture capitalist/angel investor Rob May’s co...</description>
-        <pubDate>2020-07-26 20:36:14 </pubDate>
-        <link>{{ site.url }}/2020/07/26/AI-Impact-economics.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2020/07/26/AI-Impact-economics.html</guid>
+        <pubDate>2020-07-26 22:36:14 </pubDate>
+        <link>http://localhost:4000/2020/07/26/AI-Impact-economics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/07/26/AI-Impact-economics.html</guid>
       </item>
     
       <item>
         <title>Reasoning Across the Discipline: Chemistry</title>
         <category>reasoning-across-disciplines</category>
         <description>I’ve been trying to develop my writing and thinking skills. Last week I started taking an online ...</description>
-        <pubDate>2020-06-28 16:51:46 </pubDate>
-        <link>{{ site.url }}/2020/06/28/reasoning-chemistry.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2020/06/28/reasoning-chemistry.html</guid>
+        <pubDate>2020-06-28 18:51:46 </pubDate>
+        <link>http://localhost:4000/2020/06/28/reasoning-chemistry.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/28/reasoning-chemistry.html</guid>
       </item>
     
       <item>
         <title>The Earth As a Cell</title>
         <category>reasoning-across-disciplines</category>
         <description>      What if the universe is unified as a large being, and earth is a cell? What if the higher p...</description>
-        <pubDate>2020-06-28 13:01:25 </pubDate>
-        <link>{{ site.url }}/2020/06/28/earth-as-a-cell.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2020/06/28/earth-as-a-cell.html</guid>
+        <pubDate>2020-06-28 15:01:25 </pubDate>
+        <link>http://localhost:4000/2020/06/28/earth-as-a-cell.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/28/earth-as-a-cell.html</guid>
       </item>
     
       <item>
         <title>Time Slows In Lockdown</title>
         <category>other</category>
         <description>The time is 11:33PM. Sky is pouring snow. I’ve been home for 17 days.It feels as if we are approa...</description>
-        <pubDate>2020-03-31 08:35:48 </pubDate>
-        <link>{{ site.url }}/2020/03/31/time-slows-in-lockdown.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2020/03/31/time-slows-in-lockdown.html</guid>
+        <pubDate>2020-03-31 10:35:48 </pubDate>
+        <link>http://localhost:4000/2020/03/31/time-slows-in-lockdown.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/03/31/time-slows-in-lockdown.html</guid>
       </item>
     
       <item>
         <title>Debating My Imaginary Foe</title>
         <category>other</category>
         <description>2019 was when I found out why I’m doing what I’m doing. But on a more micro scale, it was also al...</description>
-        <pubDate>2019-12-31 06:56:29 </pubDate>
-        <link>{{ site.url }}/2019/12/31/debating-my-foe.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2019/12/31/debating-my-foe.html</guid>
+        <pubDate>2019-12-31 08:56:29 </pubDate>
+        <link>http://localhost:4000/2019/12/31/debating-my-foe.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/12/31/debating-my-foe.html</guid>
       </item>
     
       <item>
         <title>Lessons from the LSE (2/2): Economics is Great</title>
         <category>learning</category>
         <description>My time at the LSE was short but rich with reflections on my own discipline.The main thing that I...</description>
-        <pubDate>2019-09-01 09:41:25 </pubDate>
-        <link>{{ site.url }}/2019/09/01/lesson-lse-2.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2019/09/01/lesson-lse-2.html</guid>
+        <pubDate>2019-09-01 11:41:25 </pubDate>
+        <link>http://localhost:4000/2019/09/01/lesson-lse-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/01/lesson-lse-2.html</guid>
       </item>
     
       <item>
         <title>Lessons from the LSE 1/2: Observe Society</title>
         <category>learning</category>
         <description>This summer, I went to the London School of Economics Summer School for an introductory course in...</description>
-        <pubDate>2019-08-22 13:04:43 </pubDate>
-        <link>{{ site.url }}/2019/08/22/lesson-lse-1.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2019/08/22/lesson-lse-1.html</guid>
+        <pubDate>2019-08-22 15:04:43 </pubDate>
+        <link>http://localhost:4000/2019/08/22/lesson-lse-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/08/22/lesson-lse-1.html</guid>
       </item>
     
       <item>
         <title>I Don't Want to Learn</title>
         <category>education</category>
         <description>Here is a striking figure:(Higher Education Quality Council of Ontario HEQCO, 2013)Figure shows t...</description>
-        <pubDate>2019-06-22 19:53:33 </pubDate>
-        <link>{{ site.url }}/2019/06/22/I-dont-want-to-learn.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2019/06/22/I-dont-want-to-learn.html</guid>
+        <pubDate>2019-06-22 21:53:33 </pubDate>
+        <link>http://localhost:4000/2019/06/22/I-dont-want-to-learn.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/06/22/I-dont-want-to-learn.html</guid>
       </item>
     
       <item>
         <title>Update May 2019</title>
         <category>other</category>
         <description>I often complain about how the phrase “how are you” is not a question. “How are you?” people will...</description>
-        <pubDate>2019-05-19 17:15:48 </pubDate>
-        <link>{{ site.url }}/2019/05/19/update-may-2019.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2019/05/19/update-may-2019.html</guid>
+        <pubDate>2019-05-19 19:15:48 </pubDate>
+        <link>http://localhost:4000/2019/05/19/update-may-2019.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/05/19/update-may-2019.html</guid>
       </item>
     
       <item>
         <title>The Joke is On Me</title>
         <category>fun-stuff</category>
         <description>I have insolently listed my professors’ blunders enough in the last two posts. But it’s always ea...</description>
-        <pubDate>2019-04-27 19:09:37 </pubDate>
-        <link>{{ site.url }}/2019/04/27/the-joke-is-on-me.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2019/04/27/the-joke-is-on-me.html</guid>
+        <pubDate>2019-04-27 21:09:37 </pubDate>
+        <link>http://localhost:4000/2019/04/27/the-joke-is-on-me.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/27/the-joke-is-on-me.html</guid>
       </item>
     
       <item>
         <title>Professors are Funny: 2</title>
         <category>fun-stuff</category>
         <description>How are you, world? I haven’t checked in for a while. I have been trekking everywhere–last week a...</description>
-        <pubDate>2019-04-01 06:45:01 </pubDate>
-        <link>{{ site.url }}/2019/04/01/professors-are-funny-2.html</link>
-        <guid isPermaLink="true">{{ site.url }}/2019/04/01/professors-are-funny-2.html</guid>
+        <pubDate>2019-04-01 08:45:01 </pubDate>
+        <link>http://localhost:4000/2019/04/01/professors-are-funny-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/01/professors-are-funny-2.html</guid>
       </item>
     
   </channel>

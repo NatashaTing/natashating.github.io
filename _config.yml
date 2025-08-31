@@ -10,7 +10,7 @@ share:            true
 
 paginate: 6
 paginate_path: "page:num"
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate] # previously gems: --> changed to plugins:
 links:
   - name:         Home
     url:          /
