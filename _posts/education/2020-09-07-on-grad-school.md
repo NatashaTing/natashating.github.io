@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: false
-title: "Starting Grad School"
+title: "Starting a Masters"
 background-image: /static/img/posts/moving.jpg
 date:  2020-09-07 01:24:34
 category: education
