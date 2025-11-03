@@ -7,6 +7,15 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Photos of this fall</title>
+        <category>on_beauty</category>
+        <description>Every fall, Indiana University Bloomington becomes a living artwork of autumn foliage. Walking ar...</description>
+        <pubDate>2025-11-03 08:04:01 </pubDate>
+        <link>http://localhost:4000/2025/11/03/fall-beauty.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/11/03/fall-beauty.html</guid>
+      </item>
+    
+      <item>
         <title>A real excitement</title>
         <category>other</category>
         <description>As a kid, I would spend the nights before family trips mostly tossing and turning in bed. I would...</description>
@@ -16,7 +25,7 @@
       </item>
     
       <item>
-        <title>Starting Grad School</title>
+        <title>Starting a Masters</title>
         <category>education</category>
         <description>(written September 1, 2020)This morning, I hopped out of bed before the alarm woke. Dodging the p...</description>
         <pubDate>2020-09-06 21:24:34 </pubDate>
@@ -112,15 +121,6 @@
         <pubDate>2019-04-27 21:09:37 </pubDate>
         <link>http://localhost:4000/2019/04/27/the-joke-is-on-me.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/04/27/the-joke-is-on-me.html</guid>
-      </item>
-    
-      <item>
-        <title>Professors are Funny: 2</title>
-        <category>fun-stuff</category>
-        <description>How are you, world? I haven’t checked in for a while. I have been trekking everywhere–last week a...</description>
-        <pubDate>2019-04-01 08:45:01 </pubDate>
-        <link>http://localhost:4000/2019/04/01/professors-are-funny-2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/01/professors-are-funny-2.html</guid>
       </item>
     
   </channel>

@@ -2,7 +2,7 @@
 layout: blog
 istop: false
 title: "Photos of this fall"
-background-image: /static/img/posts/moving.jpg
+background-image: /static/img/posts/fall25_2.jpeg
 date:  2025-11-03 13:04:01
 category: on_beauty
 tags:
@@ -22,22 +22,93 @@ The world works so hard to astonish us, and we so rarely notice. Rather than abi
 
 <div class="row">
   <div class="column">
-    <img src="/static/img/posts/fall25_1.jpeg" alt="Fall beauty 1">
-    <img src="/static/img/posts/fall25_2.jpeg" alt="Fall beauty 2">
-    <img src="/static/img/posts/fall25_3.jpeg" alt="Fall beauty 3">
+    <a href="#modal1"><img src="/static/img/posts/fall25_1.jpeg" alt="Fall beauty on Indiana University Bloomington, near Godfrey"></a>
+    <a href="#modal2"><img src="/static/img/posts/fall25_2.jpeg" alt="Fall beauty on IUB, near Neal Marshal"></a>
+    <a href="#modal3"><img src="/static/img/posts/fall25_3.jpeg" alt="Fall beauty on IUB, near IMU"></a>
   </div>
   <div class="column">
-    <img src="/static/img/posts/fall25_4.jpeg" alt="Fall beauty 4">
-    <img src="/static/img/posts/fall25_5.jpeg" alt="Fall beauty 5">
-    <img src="/static/img/posts/fall25_6.png" alt="Fall beauty 6">
+    <a href="#modal4"><img src="/static/img/posts/fall25_4.jpeg" alt="A leaf pretending to be a butterfly"></a>
+    <a href="#modal5"><img src="/static/img/posts/fall25_5.jpeg" alt="Day of the Dead Altar from La Casa Center IU"></a>
+    <a href="#modal6"><img src="/static/img/posts/fall25_6.png" alt="A chipmunk"></a>
   </div>
   <div class="column">
-    <img src="/static/img/posts/fall25_7.jpeg" alt="Fall beauty 7">
-    <img src="/static/img/posts/fall25_8.jpeg" alt="Fall beauty 8">
+    <a href="#modal7"><img src="/static/img/posts/fall25_7.jpeg" alt="Fall beauty on Indiana University Bloomington"></a>
+    <a href="#modal8"><img src="/static/img/posts/fall25_8.jpeg" alt="Fall beauty on Indiana University Bloomington"></a>
   </div>
   <div class="column">
-    <img src="/static/img/posts/fall25_9.jpeg" alt="Fall beauty 9">
+    <a href="#modal9"><img src="/static/img/posts/fall25_9.jpeg" alt="Me, Fall 2025"></a>
+    <a href="#modal10"><img src="/static/img/posts/fall23_1.jpeg" alt="Me, actually Fall 2023"></a>
   </div>
 </div>
 
+<!-- Lightbox Modals -->
+<div id="modal1" class="gallery-modal">
+  <a href="#" class="gallery-modal-close">&times;</a>
+  <a href="#"><img class="gallery-modal-content" src="/static/img/posts/fall25_1.jpeg" alt="Fall beauty on Indiana University Bloomington, near Godfrey"></a>
+  <div class="gallery-modal-caption">Fall beauty on Indiana University Bloomington, near Godfrey</div>
+  <div class="gallery-modal-hint">Click × or anywhere on picture to close</div>
+</div>
+
+<div id="modal2" class="gallery-modal">
+  <a href="#" class="gallery-modal-close">&times;</a>
+  <a href="#"><img class="gallery-modal-content" src="/static/img/posts/fall25_2.jpeg" alt="Fall beauty on IUB, near Neal Marshal"></a>
+  <div class="gallery-modal-caption">Fall beauty on IUB, near Neal Marshal</div>
+  <div class="gallery-modal-hint">Click × or anywhere on picture to close</div>
+</div>
+
+<div id="modal3" class="gallery-modal">
+  <a href="#" class="gallery-modal-close">&times;</a>
+  <a href="#"><img class="gallery-modal-content" src="/static/img/posts/fall25_3.jpeg" alt="Fall beauty on IUB, near Dunn Meadows"></a>
+  <div class="gallery-modal-caption">Fall beauty on IUB, near Dunn Meadows</div>
+  <div class="gallery-modal-hint">Click × or anywhere on picture to close</div>
+</div>
+
+<div id="modal4" class="gallery-modal">
+  <a href="#" class="gallery-modal-close">&times;</a>
+  <a href="#"><img class="gallery-modal-content" src="/static/img/posts/fall25_4.jpeg" alt="A leaf pretending to be a butterfly"></a>
+  <div class="gallery-modal-caption">A leaf pretending to be a butterfly</div>
+  <div class="gallery-modal-hint">Click × or anywhere on picture to close</div>
+</div>
+
+<div id="modal5" class="gallery-modal">
+  <a href="#" class="gallery-modal-close">&times;</a>
+  <a href="#"><img class="gallery-modal-content" src="/static/img/posts/fall25_5.jpeg" alt="Day of the Dead Altar from La Casa Center IU"></a>
+  <div class="gallery-modal-caption">Day of the Dead Altar from La Casa Center IU</div>
+  <div class="gallery-modal-hint">Click × or anywhere on picture to close</div>
+</div>
+
+<div id="modal6" class="gallery-modal">
+  <a href="#" class="gallery-modal-close">&times;</a>
+  <a href="#"><img class="gallery-modal-content" src="/static/img/posts/fall25_6.png" alt="a chipmunk on IUB"></a>
+  <div class="gallery-modal-caption">A chipmunk</div>
+  <div class="gallery-modal-hint">Click × or anywhere on picture to close</div>
+</div>
+
+<div id="modal7" class="gallery-modal">
+  <a href="#" class="gallery-modal-close">&times;</a>
+  <a href="#"><img class="gallery-modal-content" src="/static/img/posts/fall25_7.jpeg" alt="Fall beauty on IUB, near Economics building"></a>
+  <div class="gallery-modal-caption">Fall beauty on IUB, near Economics building</div>
+  <div class="gallery-modal-hint">Click × or anywhere on picture to close</div>
+</div>
+
+<div id="modal8" class="gallery-modal">
+  <a href="#" class="gallery-modal-close">&times;</a>
+  <a href="#"><img class="gallery-modal-content" src="/static/img/posts/fall25_8.jpeg" alt="Fall beauty on Indiana University Bloomington"></a>
+  <div class="gallery-modal-caption">Fall beauty on Indiana University Bloomington</div>
+  <div class="gallery-modal-hint">Click × or anywhere on picture to close</div>
+</div>
+
+<div id="modal9" class="gallery-modal">
+  <a href="#" class="gallery-modal-close">&times;</a>
+  <a href="#"><img class="gallery-modal-content" src="/static/img/posts/fall25_9.jpeg" alt="Me, Fall 2025"></a>
+  <div class="gallery-modal-caption">Me, Fall 2025</div>
+  <div class="gallery-modal-hint">Click × or anywhere on picture to close</div>
+</div>
+
+<div id="modal10" class="gallery-modal">
+  <a href="#" class="gallery-modal-close">&times;</a>
+  <a href="#"><img class="gallery-modal-content" src="/static/img/posts/fall23_1.jpeg" alt="Me, actually Fall 2023"></a>
+  <div class="gallery-modal-caption">Me, actually Fall 2023</div>
+  <div class="gallery-modal-hint">Click × or anywhere on picture to close</div>
+</div>
  
