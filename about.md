@@ -13,12 +13,12 @@ redirect_from:
 ![Me Natasha](static/img/main/NatashaTing_square.jpg){: .author-img}
 
 # About Me
-My name is Natasha Ting. As of 2024 I am a first-year student in business economics at Indiana University. My research interests are environmental economics and IO. 
+My name is Natasha Ting. As of Spring 2026 I am a third-year PhD student in business economics at Indiana University. My research interests are political economy, IO, and environmental economics. 
 
 Outside of economics, I read, write, joke, hike, dance, and play some music. 
 
 ## Geography
-I grew up in a little town in the West Coast of Malaysia. Outside of the little town, I have lived in Edmonton, Kuala Lumpur, Auckland, and Edmonton. I currently live in Indiana. 
+I grew up in a little town in the West Coast of Malaysia. Outside of the little town, I have lived in Bloomington, Edmonton, Kuala Lumpur, and Auckland. I currently live in Bloomington, Indiana. 
 
 # About This Blog
 I've always had a lot to say and there were always avenues. I started this blog in the summer of 2018, 
@@ -27,5 +27,5 @@ just after 2nd year undergraduate studies, and had a long hiatus from 2020 to 20
 <br>
 
 # Contact 
-Say hello on [Twitter](https://twitter.com/NatashaTing)
+Email me at ting [at] iu [dot] edu. Say hello on [Twitter](https://twitter.com/NatashaTing)
 
