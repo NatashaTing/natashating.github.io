@@ -1,22 +1,17 @@
-<!DOCTYPE>
-<html lang="zh-cn" data-scribe-reduced-action-queue="true">
-	  <meta http-equiv="x-dns-prefetch-control" content="on">   
-	  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <meta name="renderer" content="webkit">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="Cache-Control" content="no-transform"/>
-	  <meta http-equiv="Cache-Control" content="no-siteapp"/>  
-    <title>Econ Rant</title>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
     
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title> - Econ Rant</title>
+  <title>Natasha Ting - Econ Rant</title>
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content=" - Econ Rant">
-  <meta name="twitter:keywords"  content=" - Econ Rant" property='og:description' />
+  <meta name="twitter:title" content="Natasha Ting - Econ Rant">
+  <meta name="twitter:keywords"  content="Natasha Ting - Econ Rant" property='og:description' />
   <meta property="og:type" content="article">
-  <meta property="og:title" content=" - Econ Rant">
-  <meta name="og:keywords"  content=" - Econ Rant|    Rants on economics and learning:			      {% for posts in paginator.posts %}											           		             	..." property='og:description' />
+  <meta property="og:title" content="Natasha Ting - Econ Rant">
+  <meta name="og:keywords"  content="Natasha Ting - Econ Rant|        Natasha Ting    Researcher in infrastructure policy          School profile      Twitter      CV      CV (PDF..." property='og:description' />
   <meta name="ReadThisTing" content="#eb5055">
   <link rel="icon" type="image/png" href="http://localhost:4000/style/favicons/favicon.ico" />
   <link href="http://localhost:4000/style/favicons/favicon.ico" rel="shortcut icon" type="image/png">
@@ -25,7 +20,7 @@
   <meta charset="UTF-8">  
   <link rel="manifest" href="/manifest.json">
   <link rel="shortcut icon" href="http://localhost:4000/style/favicons/favicon.ico" type="image/x-icon">
-  <meta name="keywords"  content="    Rants on economics and learning:			      {% for posts in paginator.posts %}											           		             	..." property='og:description' />
+  <meta name="keywords"  content="        Natasha Ting    Researcher in infrastructure policy          School profile      Twitter      CV      CV (PDF..." property='og:description' />
   <meta name="description" content="nothing is more practicla than a good theory" />
   <link href="https://cdn.bootcss.com/highlight.js/9.10.0/styles/xcode.min.css" rel="stylesheet">
   <link href="http://localhost:4000/style/style-liberxue.css" rel="stylesheet">
@@ -50,269 +45,164 @@
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
+    <style>
+      /* Slimmer fixed header + room below it (global header is 80px and overlaps content). */
+      body.page-about { --about-nav-h: 48px; }
+      body.page-about .header {
+        height: var(--about-nav-h);
+        line-height: calc(var(--about-nav-h) - 2px);
+      }
+      body.page-about .navbar-container {
+        height: var(--about-nav-h);
+      }
+      body.page-about .navbar-logo {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      body.page-about .navbar-logo img {
+        height: 30px;
+      }
+      body.page-about .navbar-menu a {
+        font-size: 13px;
+        padding: 0 11px;
+      }
+      body.page-about .navbar-mobile-menu {
+        line-height: var(--about-nav-h);
+      }
+      body.page-about .navbar-search {
+        line-height: var(--about-nav-h);
+        padding: 0 28px 0 0;
+      }
+      main.academic-page {
+        max-width: 52rem;
+        margin: 0 auto;
+      }
+      body.page-about main.academic-page {
+        padding: calc(var(--about-nav-h) + 1.5rem) 1.5rem 4rem;
+      }
+      .academic-hero {
+        display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;
+        padding-bottom: 2rem; margin-bottom: 2rem;
+        border-bottom: 1px solid #e8e8e8;
+      }
+      .academic-photo {
+        width: 11rem; height: 11rem; object-fit: cover; border-radius: 4px;
+        box-shadow: 0 1px 4px rgba(0,0,0,.08);
+      }
+      .academic-intro { flex: 1; min-width: 16rem; }
+      .academic-name { font-size: 1.85rem; font-weight: 600; margin: 0 0 .35rem; letter-spacing: -0.02em; color: #1a1a1a; }
+      .academic-affil { font-size: 1.05rem; color: #444; margin: 0 0 .75rem; line-height: 1.45; }
+      .academic-links { display: flex; flex-wrap: wrap; gap: .65rem 1rem; margin-top: 1rem; }
+      .academic-links a {
+        font-size: .92rem; color: #2a6ebb; text-decoration: none;
+        border-bottom: 1px solid rgba(42,110,187,.35);
+      }
+      .academic-links a:hover { color: #174a7e; border-bottom-color: #174a7e; }
+      .academic-body { font-size: 1rem; line-height: 1.65; color: #333; }
+      .academic-body h2 { font-size: 1.15rem; font-weight: 600; margin: 2rem 0 .75rem; color: #1a1a1a; text-transform: uppercase; letter-spacing: .04em; }
+      .academic-body h2:first-of-type { margin-top: 0; }
+      .academic-body p { margin: 0 0 1rem; }
+      .academic-body::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .academic-float-photo {
+        float: right;
+        width: 11rem;
+        height: 11rem;
+        margin: 0 0 1rem 1.25rem;
+        box-shadow: 0 1px 4px rgba(0,0,0,.08);
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .academic-float-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      @media (max-width: 640px) {
+        body.page-about main.academic-page { padding-left: 1rem; padding-right: 1rem; }
+        .academic-hero { gap: 1.25rem; }
+        .academic-float-photo { margin-left: 0.75rem; }
+      }
+    </style>
   </head>
-<body class="bg-grey" gtools_scp_screen_capture_injected="true"><div id="MathJax_Message" style="display: none;"></div>
+<body class="page-about">
 <header id="header" class="header bg-white">
     <div class="navbar-container">
-      <a href="/?liberxue" title="Visit Econ Rant" class="navbar-logo"> <img src="http://localhost:4000/style/images/logo.png" alt="Econ Rant"> </a>
+      <a href="http://localhost:4000/" title="Econ Rant" class="navbar-logo"> <img src="http://localhost:4000/style/images/logo.png" alt="Econ Rant"> </a>
         <div class="navbar-menu">
-                        
-            <a href="/?liberxue"  title="Visit Home" data-hover="Home">Home</a>
-                             
-            <a href="/tags?liberxue"  title="Visit Tags" data-hover="Tags">Tags</a>
-                             
-            <a href="/about?liberxue"  title="Visit About" data-hover="About">About</a>
+            
+            <a href="http://localhost:4000/">Home</a>
+                
+            <a href="http://localhost:4000/blog/">Blog</a>
+                
+            <a href="http://localhost:4000/tags">Tags</a>
+                
+            <a href="http://localhost:4000/cv/">CV</a>
                 
           </div>
         <div class="navbar-search" onclick="">
             <span class="icon-search"></span>
-            <form method="post" action="/404.html" role="search">
-                <span class="search-box">
+            <form id="cb-search-btn" role="search">
+         <span class="search-box">
          <input type="text" class="input" id="cb-search-content" required="true" placeholder="Title tag..." maxlength="30" autocomplete="off">
-                </span>
+        </span>
             </form>
         </div>
         <div class="navbar-mobile-menu" onclick="">
             <span class="icon-menu cross"><span class="middle"></span></span>
             <ul>
-                          
-                <li><a href="/" title="Visit Home" data-hover="Home">Home</a></li>
-                            
-                <li><a href="/tags" title="Visit Tags" data-hover="Tags">Tags</a></li>
-                            
-                <li><a href="/about" title="Visit About" data-hover="About">About</a></li>
+               
+                <li><a href="http://localhost:4000/">Home</a></li>
+                 
+                <li><a href="http://localhost:4000/blog/">Blog</a></li>
+                 
+                <li><a href="http://localhost:4000/tags">Tags</a></li>
+                 
+                <li><a href="http://localhost:4000/cv/">CV</a></li>
                  
             </ul>
         </div>
     </div>
 </header>
 
-      <main class="tl f6 relative pa4 pa5-ns overflow-hidden">
-        
-        <div class="markdown-body">
-          <div class="main-content index-page clearfix ">
-    Rants on economics and learning:
-	<div class="post-lists">
-		<div class="post-lists-body">
-      
-		<div class="post-list-item">
-				<div class="post-list-item-container">
-					 <div class="item-thumb  bg-" style="background-image:url('/static/img/posts/potato.jpeg');"></div>
-          	<a href="/2025/12/03/on-books-and-wealth.html">
-	             <div class="item-desc">
-		<p>For my sister’s birthday we went to a restaurant I cannot afford. Alpen Rose is the sort of place...</p>
-						</div>
-					</a>
-					<div class="item-slant reverse-slant  bg-"></div>
-					<div class="item-slant">	<div class="liberxue-title">
-				</div></div>
-					<div class="item-label">
-						<div class="item-title"><a href="/2025/12/03/on-books-and-wealth.html" title="Visit On Books and Wealth">On Books and Wealth</a></div>
-						<div class="item-meta clearfix">
-						<div class="item-meta-ico bg-ico-book" style="background: url('/style/images/bg-ico.png') no-repeat;background-size: 28px auto;"></div>
-             <div class="item-meta-cat">
-				 <a href="/tags#on_beauty" title="Visit on_beauty" data-hover="on_beauty">on_beauty</a>
-				 <a href="/archives#2025" title="visit 2025" data-hover="2025-12-03 03:37">2025-12-03</a></div>
-						</div>
-					</div>
-				</div>
-      </div>
-       
-		<div class="post-list-item">
-				<div class="post-list-item-container">
-					 <div class="item-thumb  bg-" style="background-image:url('/static/img/posts/fall25_2.jpeg');"></div>
-          	<a href="/2025/11/03/fall-beauty.html">
-	             <div class="item-desc">
-		<p>Every fall, Indiana University Bloomington becomes a living artwork of autumn foliage. Walking ar...</p>
-						</div>
-					</a>
-					<div class="item-slant reverse-slant  bg-"></div>
-					<div class="item-slant">	<div class="liberxue-title">
-				</div></div>
-					<div class="item-label">
-						<div class="item-title"><a href="/2025/11/03/fall-beauty.html" title="Visit Photos of this fall">Photos of this fall</a></div>
-						<div class="item-meta clearfix">
-						<div class="item-meta-ico bg-ico-book" style="background: url('/style/images/bg-ico.png') no-repeat;background-size: 28px auto;"></div>
-             <div class="item-meta-cat">
-				 <a href="/tags#on_beauty" title="Visit on_beauty" data-hover="on_beauty">on_beauty</a>
-				 <a href="/archives#2025" title="visit 2025" data-hover="2025-11-03 07:04">2025-11-03</a></div>
-						</div>
-					</div>
-				</div>
-      </div>
-       
-		<div class="post-list-item">
-				<div class="post-list-item-container">
-					 <div class="item-thumb  bg-" style="background-image:url('/static/img/posts/ware_tada_taru_shiru.jpeg');"></div>
-          	<a href="/2025/08/30/excitement.html">
-	             <div class="item-desc">
-		<p>As a kid, I would spend the nights before family trips mostly tossing and turning in bed. I would...</p>
-						</div>
-					</a>
-					<div class="item-slant reverse-slant  bg-"></div>
-					<div class="item-slant">	<div class="liberxue-title">
-				</div></div>
-					<div class="item-label">
-						<div class="item-title"><a href="/2025/08/30/excitement.html" title="Visit A real excitement">A real excitement</a></div>
-						<div class="item-meta clearfix">
-						<div class="item-meta-ico bg-ico-book" style="background: url('/style/images/bg-ico.png') no-repeat;background-size: 28px auto;"></div>
-             <div class="item-meta-cat">
-				 <a href="/tags#other" title="Visit other" data-hover="other">other</a>
-				 <a href="/archives#2025" title="visit 2025" data-hover="2025-08-30 14:01">2025-08-30</a></div>
-						</div>
-					</div>
-				</div>
-      </div>
-       
-		<div class="post-list-item">
-				<div class="post-list-item-container">
-					 <div class="item-thumb  bg-" style="background-image:url('/static/img/posts/moving.jpg');"></div>
-          	<a href="/2020/09/06/on-grad-school.html">
-	             <div class="item-desc">
-		<p>(written September 1, 2020)This morning, I hopped out of bed before the alarm woke. Dodging the p...</p>
-						</div>
-					</a>
-					<div class="item-slant reverse-slant  bg-"></div>
-					<div class="item-slant">	<div class="liberxue-title">
-				</div></div>
-					<div class="item-label">
-						<div class="item-title"><a href="/2020/09/06/on-grad-school.html" title="Visit Starting a Masters">Starting a Masters</a></div>
-						<div class="item-meta clearfix">
-						<div class="item-meta-ico bg-ico-book" style="background: url('/style/images/bg-ico.png') no-repeat;background-size: 28px auto;"></div>
-             <div class="item-meta-cat">
-				 <a href="/tags#education" title="Visit education" data-hover="education">education</a>
-				 <a href="/archives#2020" title="visit 2020" data-hover="2020-09-06 20:24">2020-09-06</a></div>
-						</div>
-					</div>
-				</div>
-      </div>
-       
-		<div class="post-list-item">
-				<div class="post-list-item-container">
-					 <div class="item-thumb  bg-" style="background-image:url('/static/img/posts/stormtrooper.jpg');"></div>
-          	<a href="/2020/07/26/AI-Impact-economics.html">
-	             <div class="item-desc">
-		<p>This weekend’s InsideAI newsletter included writer/venture capitalist/angel investor Rob May’s co...</p>
-						</div>
-					</a>
-					<div class="item-slant reverse-slant  bg-"></div>
-					<div class="item-slant">	<div class="liberxue-title">
-				</div></div>
-					<div class="item-label">
-						<div class="item-title"><a href="/2020/07/26/AI-Impact-economics.html" title="Visit Thoughts on AI's Impact on Economic Laws">Thoughts on AI's Impact on Economic Laws</a></div>
-						<div class="item-meta clearfix">
-						<div class="item-meta-ico bg-ico-book" style="background: url('/style/images/bg-ico.png') no-repeat;background-size: 28px auto;"></div>
-             <div class="item-meta-cat">
-				 <a href="/tags#economics" title="Visit economics" data-hover="economics">economics</a>
-				 <a href="/archives#2020" title="visit 2020" data-hover="2020-07-26 21:36">2020-07-26</a></div>
-						</div>
-					</div>
-				</div>
-      </div>
-       
-		<div class="post-list-item">
-				<div class="post-list-item-container">
-					 <div class="item-thumb  bg-" style="background-image:url('/static/img/posts/reason-chemistry.png');"></div>
-          	<a href="/2020/06/28/reasoning-chemistry.html">
-	             <div class="item-desc">
-		<p>I’ve been trying to develop my writing and thinking skills. Last week I started taking an online ...</p>
-						</div>
-					</a>
-					<div class="item-slant reverse-slant  bg-"></div>
-					<div class="item-slant">	<div class="liberxue-title">
-				</div></div>
-					<div class="item-label">
-						<div class="item-title"><a href="/2020/06/28/reasoning-chemistry.html" title="Visit Reasoning Across the Discipline: Chemistry">Reasoning Across the Discipline: Chemistry</a></div>
-						<div class="item-meta clearfix">
-						<div class="item-meta-ico bg-ico-book" style="background: url('/style/images/bg-ico.png') no-repeat;background-size: 28px auto;"></div>
-             <div class="item-meta-cat">
-				 <a href="/tags#reasoning-across-disciplines" title="Visit reasoning-across-disciplines" data-hover="reasoning-across-disciplines">reasoning-...</a>
-				 <a href="/archives#2020" title="visit 2020" data-hover="2020-06-28 17:51">2020-06-28</a></div>
-						</div>
-					</div>
-				</div>
-      </div>
-       
-	</div>
-	</div>
-</div>
-  <!-- Paginator -->
-       <div class="lists-navigator clearfix">   
-         <ol class="page-navigator">
-        <li class="current">
-            <a href="/?" data-hover="Home">
-                <span>Home</span>
-            </a>
-        </li>
-        <li class="current">
-        
-            <span>&laquo;</span>
-        
-        </li>
-        
-            
-        <li class="current">
-            
-            
-            <a href="/?" data-hover="1">1</a>
-            
-        </li>
-        
-            
-        <li>
-            
-            
-            <a href="/page2?" data-hover="2">2</a>
-            
-        </li>
-        
-            
-        <li>
-            
-            
-            <a href="/page3?" data-hover="3">3</a>
-            
-        </li>
-        
-            
-        <li>
-            
-            
-            <a href="/page4?" data-hover="4">4</a>
-            
-        </li>
-        
-            
-        <li>
-            
-            
-            <a href="/page5?" data-hover="5">5</a>
-            
-        </li>
-        
-        <li class="current">
-            
-            <a href="/page2?" data-hover="&raquo;">
-                <span>&raquo;</span>
-            </a>
-            
-        </li>
-        <li>
-            <a href="/page5?" data-hover="Last page">
-                <span>Last page</span>
-            </a>
-        </li>
-        <li class="current">
-            <span>Page1 / Total5</span>
-      </ol> 
-        
+<main class="academic-page markdown-body">
+  <div class="academic-hero">
+  <img class="academic-photo" src="/static/img/main/NatashaTing_square.jpg" alt="Portrait of Natasha Ting" width="176" height="176" />
+  <div class="academic-intro">
+    <h1 class="academic-name">Natasha Ting</h1>
+    <p class="academic-affil">Researcher in infrastructure policy</p>
+    <nav class="academic-links" aria-label="Contact and profile">
+      <a href="https://kelley.iu.edu/faculty-research/departments/bepp/index.html">School profile</a>
+      <a href="https://twitter.com/NatashaTing">Twitter</a>
+      <a href="/cv/">CV</a>
+      <a href="/static/file/CV_NatashaTing.pdf">CV (PDF)</a>
+      <a href="/blog/">Blog</a>
+    </nav>
   </div>
+</div>
 
-        </div>
-        
-      </main>
-      
-    </div>
+<div class="academic-body">
+  <p>Hi, I am Natasha. I am a 3rd year PhD candidate at Indiana University Bloomington Kelley School of Business, Department of Business Economics and Public Policy. My research interests are political economy, industrial organization, and environmental economics.</p>
+
+  <p>I have more than 100 playlists on Spotify and am always looking for new music. In the past, I used to travel a bit. Once I talked (what I think is) research in almost complete darkness near the Lesotho border, another time I saw a 2 storey-high sea worm forest in the South China Sea. Now I enjoy sitting at home wondering what’s going on outside.</p>
+
+  <!-- 
+<figure class="academic-float-photo">
+  <img src="/static/img/main/lesotho_2023.png" alt="at the Lesotho border, someone lost a zebra, 2023" width="176" height="176" loading="lazy" />
+</figure> -->
+
+  <h2 id="contact">Contact</h2>
+
+  <p>Email: ting [at] iu [dot] edu. You can also say hello on <a href="https://twitter.com/NatashaTing">Twitter</a>.</p>
+
+</div>
+
+</main>
+
 <footer class="footer bg-white">
 	<div class="footer-social">
 		<div class="footer-container clearfix">
@@ -329,7 +219,7 @@
                     <a href="/" class="info-logo">
                          <img src="http://localhost:4000/style/images/logo.png"   title="Visit Blog" data-hover="Blog" alt="Blog" /> </a>
                     <div class="info-text">
-                        <p>&copy; 2024 <a href="http://localhost:4000/about" target="_blank">Natasha Ting</a>.</p>
+                        <p>&copy; 2024 <a href="http://localhost:4000/" target="_blank">Natasha Ting</a>.</p>
                         <p>Total：26 posts. <a href="/archive"  title="Browse Archive" data-hover="Browse Archive">Browse Archive</a></p>
                         <p><a href="/feed.xml"  title="Subscribe with RSS" data-hover="Subscribe with RSS">Subscribe with RSS</a></p>
                     </div>
@@ -432,5 +322,5 @@ $(function () {
 })();
 </script>
 
-  </body>
+</body>
 </html>

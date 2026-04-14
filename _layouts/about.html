@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    {% include head.html %}
+    <style>
+      /* Slimmer fixed header + room below it (global header is 80px and overlaps content). */
+      body.page-about { --about-nav-h: 48px; }
+      body.page-about .header {
+        height: var(--about-nav-h);
+        line-height: calc(var(--about-nav-h) - 2px);
+      }
+      body.page-about .navbar-container {
+        height: var(--about-nav-h);
+      }
+      body.page-about .navbar-logo {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      body.page-about .navbar-logo img {
+        height: 30px;
+      }
+      body.page-about .navbar-menu a {
+        font-size: 13px;
+        padding: 0 11px;
+      }
+      body.page-about .navbar-mobile-menu {
+        line-height: var(--about-nav-h);
+      }
+      body.page-about .navbar-search {
+        line-height: var(--about-nav-h);
+        padding: 0 28px 0 0;
+      }
+      main.academic-page {
+        max-width: 52rem;
+        margin: 0 auto;
+      }
+      body.page-about main.academic-page {
+        padding: calc(var(--about-nav-h) + 1.5rem) 1.5rem 4rem;
+      }
+      .academic-hero {
+        display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;
+        padding-bottom: 2rem; margin-bottom: 2rem;
+        border-bottom: 1px solid #e8e8e8;
+      }
+      .academic-photo {
+        width: 11rem; height: 11rem; object-fit: cover; border-radius: 4px;
+        box-shadow: 0 1px 4px rgba(0,0,0,.08);
+      }
+      .academic-intro { flex: 1; min-width: 16rem; }
+      .academic-name { font-size: 1.85rem; font-weight: 600; margin: 0 0 .35rem; letter-spacing: -0.02em; color: #1a1a1a; }
+      .academic-affil { font-size: 1.05rem; color: #444; margin: 0 0 .75rem; line-height: 1.45; }
+      .academic-links { display: flex; flex-wrap: wrap; gap: .65rem 1rem; margin-top: 1rem; }
+      .academic-links a {
+        font-size: .92rem; color: #2a6ebb; text-decoration: none;
+        border-bottom: 1px solid rgba(42,110,187,.35);
+      }
+      .academic-links a:hover { color: #174a7e; border-bottom-color: #174a7e; }
+      .academic-body { font-size: 1rem; line-height: 1.65; color: #333; }
+      .academic-body h2 { font-size: 1.15rem; font-weight: 600; margin: 2rem 0 .75rem; color: #1a1a1a; text-transform: uppercase; letter-spacing: .04em; }
+      .academic-body h2:first-of-type { margin-top: 0; }
+      .academic-body p { margin: 0 0 1rem; }
+      .academic-body::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .academic-float-photo {
+        float: right;
+        width: 11rem;
+        height: 11rem;
+        margin: 0 0 1rem 1.25rem;
+        box-shadow: 0 1px 4px rgba(0,0,0,.08);
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .academic-float-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      @media (max-width: 640px) {
+        body.page-about main.academic-page { padding-left: 1rem; padding-right: 1rem; }
+        .academic-hero { gap: 1.25rem; }
+        .academic-float-photo { margin-left: 0.75rem; }
+      }
+    </style>
+  </head>
+<body class="page-about">
+<header id="header" class="header bg-white">
+    <div class="navbar-container">
+      <a href="{{ site.url }}/" title="{{ site.title }}" class="navbar-logo"> <img src="{{ site.url }}/style/images/logo.png" alt="{{ site.title }}"> </a>
+        <div class="navbar-menu">
+            {% for link in site.links %}
+            <a href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">{{ link.name }}</a>
+                {% endfor %}
+          </div>
+        <div class="navbar-search" onclick="">
+            <span class="icon-search"></span>
+            <form id="cb-search-btn" role="search">
+         <span class="search-box">
+         <input type="text" class="input" id="cb-search-content" required="true" placeholder="Title tag..." maxlength="30" autocomplete="off">
+        </span>
+            </form>
+        </div>
+        <div class="navbar-mobile-menu" onclick="">
+            <span class="icon-menu cross"><span class="middle"></span></span>
+            <ul>
+               {% for link in site.links %}
+                <li><a href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">{{ link.name }}</a></li>
+                 {% endfor %}
+            </ul>
+        </div>
+    </div>
+</header>
+
+<main class="academic-page markdown-body">
+  {{ content }}
+</main>
+
+{% include foot.html %}
+</body>
+</html>
