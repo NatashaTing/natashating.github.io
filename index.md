@@ -23,17 +23,14 @@ redirect_from:
 </div>
 
 <div class="academic-body" markdown="1">
-Hi, I am Natasha. I am a 3rd year PhD candidate at Indiana University Bloomington Kelley School of Business, Department of Business Economics and Public Policy. My research interests are political economy, industrial organization, and environmental economics.
+Hi, I am Natasha. I am a 3rd year PhD candidate at Indiana University Bloomington Kelley School of Business, Department of Business Economics and Public Policy. I research energy infrastructure policy using tools from political economy, industrial organization, and environmental economics. 
 
-I have more than 100 playlists on Spotify and am always looking for new music. In the past, I used to travel a bit. Once I talked (what I think is) research in almost complete darkness near the Lesotho border, another time I saw a 2 storey-high sea worm forest in the South China Sea. Now I enjoy sitting at home wondering what's going on outside. 
+Personal...
+I am always looking for new music, and used to travel a bit. Once I talked what I think was research in complete darkness near the Lesotho border, another time I saw a 2 storey-high sea worm forest in the South China Sea. Nowadays I enjoy building my more than 110 music playlists and genres. 
 
-<!-- 
-<figure class="academic-float-photo">
-  <img src="/static/img/main/lesotho_2023.png" alt="at the Lesotho border, someone lost a zebra, 2023" width="176" height="176" loading="lazy" />
-</figure> -->
 
 ## Contact
 
-Email: ting [at] iu [dot] edu. You can also say hello on [Twitter](https://twitter.com/NatashaTing).
+Email: ting [at] iu [dot] edu. 
 
 </div>
