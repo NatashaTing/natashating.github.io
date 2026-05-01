@@ -1,12 +1,16 @@
 ---
 layout: default
+title: Blog
+permalink: /blog/
+pagination:
+  enabled: true
 ---
 
 <div class="main-content index-page clearfix ">
     Rants on economics and learning:
 	<div class="post-lists">
 		<div class="post-lists-body">
-      {% for posts in site.posts %}
+      {% for posts in paginator.posts %}
 		<div class="post-list-item">
 				<div class="post-list-item-container">
 					 <div class="item-thumb  bg-{{posts.background }}" style="background-image:url('{{posts.background-image }}');"></div>
@@ -33,3 +37,39 @@ layout: default
 	</div>
 	</div>
 </div>
+
+{% if paginator.total_pages > 1 %}
+<div class="lists-navigator clearfix">
+  <ol class="page-navigator">
+    <li class="current">
+      <a href="/blog/" data-hover="Blog Home"><span>Blog Home</span></a>
+    </li>
+    <li class="current">
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}"><span>&laquo;</span></a>
+      {% else %}
+      <span>&laquo;</span>
+      {% endif %}
+    </li>
+    {% for page_number in (1..paginator.total_pages) %}
+    <li{% if page_number == paginator.page %} class="current"{% endif %}>
+      {% if page_number == 1 %}
+      <a href="/blog/" data-hover="{{ page_number }}">{{ page_number }}</a>
+      {% else %}
+      <a href="/blog/page{{ page_number }}/" data-hover="{{ page_number }}">{{ page_number }}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+    <li class="current">
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}"><span>&raquo;</span></a>
+      {% else %}
+      <span>&raquo;</span>
+      {% endif %}
+    </li>
+    <li class="current">
+      <span>Page {{ paginator.page }} / {{ paginator.total_pages }}</span>
+    </li>
+  </ol>
+</div>
+{% endif %}

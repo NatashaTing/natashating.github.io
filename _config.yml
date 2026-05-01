@@ -5,11 +5,22 @@ url:              https://natashating.com # my custom domain
 baseurl:          "" # keeping it blank since my site is at the root of your custom domain.
 signoff:          "Natasha Ting" # name
 facebook_appid:
-google_analytics: UA-171564247-1
+google_analytics: G-SNR5WKRRF7
 share:            true 
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-paginate-v2
+
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: "/page:num/"
+  sort_field: "date"
+  sort_reverse: true
+
+autopages:
+  enabled: false
 links:
   - name:         Home
     url:          /
