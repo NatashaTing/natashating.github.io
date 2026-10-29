@@ -23,15 +23,15 @@ redirect_from:
 </div>
 
 <div class="academic-body" markdown="1">
-Hi, I am Natasha. I am a 3rd year PhD candidate at Indiana University Bloomington Kelley School of Business, Department of Business Economics and Public Policy. 
+Thank you for visiting my website. I am Natasha, a 4th year PhD candidate at Indiana University Bloomington Kelley School of Business, Department of Business Economics and Public Policy. 
 
 Research: <br>
 
 I research energy infrastructure policy using tools from political economy, industrial organization, and environmental economics. 
 
-Personal <br>
+Personal: <br>
 
-I am always looking for new music, and used to travel a bit. Once I talked what I think was research in complete darkness near the Lesotho border, another time I saw a 2 storey-high sea worm forest in the South China Sea. Nowadays I enjoy building my more than 110 music playlists and genres. 
+I am always looking for new music, and used to travel a bit. A few years ago I talked what I think was research in complete darkness near the Lesotho border; another time I saw a 2 storey-high sea worm forest under the South China Sea. Nowadays I enjoy building my messy music playlists and genres. I appreciate any random plugs of music. 
 
 
 ## Contact
